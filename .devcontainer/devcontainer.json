@@ -1,0 +1,24 @@
+{
+    "name": "hid-example",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".",
+    },
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            },
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.tabSize": 2,
+    },
+    "extensions": [
+        "visualstudioexptteam.vscodeintellicode",
+        "redhat.vscode-yaml",
+        "justusadam.language-haskell",
+        "haskell.haskell",
+    ],
+    "updateRemoteUserUID": true,
+    "remoteUser": "vscode",
+}
